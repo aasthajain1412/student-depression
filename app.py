@@ -23,9 +23,9 @@ with st.sidebar:
     st.title("🧠 Student Depression Predictor")
     st.markdown("Predict the likelihood of depression in students.")
     st.markdown("---")
-    st.markdown("👨‍💻 Developed by: **Brajesh Ahirwar**")
-    st.markdown("🔗 GitHub: [Brajesh Ahirwar](https://github.com/brajesh2306)")
-    st.markdown("🔗 LinkedIn: [Profile](www.linkedin.com/in/brajesh-ahirwar-6269b728b)")
+    st.markdown("👨‍💻 Developed by: **Aastha jain**")
+    st.markdown("🔗 GitHub: [Aastha jain](https://github.com/aasthajain1412)")
+    st.markdown("🔗 LinkedIn: [Profile](https://www.linkedin.com/in/aastha-jain-4281ab327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)")
     st.markdown("---")
     st.markdown("✨ **Have fun exploring AI!**")
 
@@ -36,7 +36,7 @@ st.markdown("<h1 style='text-align: center; color: #2E8B57;'>Student Depression 
 st.markdown("<h3 style='text-align: center; color: #808080;'>Enter the student's lifestyle and habits below</h3>", unsafe_allow_html=True)
 
 # background image
-image = Image.open('Artificial Intelligence Application in Mental Health Research copy.jpg')
+image = Image.open('"C:\Users\aasth\OneDrive\Desktop\ml project 1\student depression image.jpg"')
 st.image(image, use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
@@ -145,3 +145,4 @@ if st.button("Predict"):
 
         except Exception as e:
             st.error(f"Error during prediction: {e}")
+
